@@ -1,4 +1,3 @@
-import 'package:ecommerce_app/presentation/auth/screens/enter_passwrod.dart';
 import 'package:ecommerce_app/presentation/auth/screens/signin.dart';
 import 'package:ecommerce_app/utils/constants/colors.dart';
 import 'package:ecommerce_app/utils/helper/helper_function.dart';
@@ -54,10 +53,8 @@ class SignUp extends StatelessWidget {
                 height: 20,
               ),
               ElevatedButton(
-                onPressed: () {
-                  HelperFunction.push(context, const EnterPassword());
-                },
-                child: const Text('Conitune'),
+                onPressed: () {},
+                child: const Text('Sign in'),
               ),
               const SizedBox(
                 height: 20,
